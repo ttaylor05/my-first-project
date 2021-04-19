@@ -1,0 +1,49 @@
+
+body {
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+    background-color: hsl(210, 46%, 95%);  
+}
+.container {
+    position: absolute;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-left: 900px;
+}
+.card-left {
+    padding-top: 85px;    
+}
+.card-left img {
+    width: 300px;
+    height: 225px;
+    margin: -45px auto 40px auto;
+}
+.card-right {
+    position: relative;
+    right: 60px;
+    width: 350px;
+    height: 19vh;
+    background-color: #fff;
+    text-align: left;
+    
+    padding-right: 20px;
+    padding-left: 40px;
+}
+.card-right p {
+    font-size: 12px;
+}
+.card-right img {
+    border-radius: 50%;
+    width: 10%;
+    height: 10%;
+    padding-top: 10px;
+}
+.avatar-bottom  {
+    display: flex;
+    justify-content: right;
+}
+.name {
+    padding: 10px;
+    padding-right: 150px;
+}
